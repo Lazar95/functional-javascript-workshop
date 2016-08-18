@@ -1,0 +1,49 @@
+{
+  "title": "ФУНКЦИОНАЛНИ ЈАВАСКРИПТ ЈЕ СУПЕР",
+  "subtitle": "\u001b[23mИзабери задатак и притисни \u001b[3mЕнтер\u001b[23m да почнеш",
+  "common": {
+    "exercise": {
+      "fail": {
+        "missing_deps": "Мораш да инсталираш све зависности ако их користиш у свом решенју (нпр. lodash)",
+        "module_not_found": "Твоја датотека није пронађена. Провери да ли је написана добра путања.",
+        "must_export_function": "Треба увек да вратиш функцију коришћењем објекта module.exports."
+      },
+      "input":      "улаз:          %s",
+      "submission": "твоје решење:  %s",
+      "solution":   "наше решење:   %s"
+    }
+  },
+  "exercises": {
+    "Basic: Map": {
+      "didnt_use_map": "Ниси употребио Array#map",
+      "used_map": "То бре! Употребио си Array#map"
+    },
+    "Basic: Every Some": {
+      "found_good_lists": "пронађено %d добрих листи!"
+    },
+    "Basic: Call": {
+      "matched_objects": "Погођено %d од %d валидних објекта од укупно %d."
+    },
+    "Higher Order Functions": {
+      "call_log": "Функција позвана %d пута."
+    },
+    "Function Spies": {
+      "call_times": "Метода позвана %d пута.",
+      "incorrect_return": "Провери повратну вредност функције!",
+      "incorrect_this": "Провери this из функције! Помоћ: Function#apply",
+      "not_all_args": "Провери да ли прослеђујеш СВЕ аргументе! Помоћ: Function#apply"
+    },
+    "Trampoline": {
+      "intro": "понавља се %d пута",
+      "result": "Успешно извршено %d пута."
+    },
+    "Async Loops": {
+      "all_loaded": "Свих %d корисника учитано!",
+      "bad_result": "очекивано: \n%s\n али добијено got:\n%s",
+      "took_too_long": "Траје предуго!"
+    },
+    "Currying": {
+      "five_words": "Овај,проблем,је,успешно,решен"
+    }
+  }
+}
